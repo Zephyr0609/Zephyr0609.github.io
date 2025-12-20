@@ -28,6 +28,9 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
+- [SA-CMamba: Stripe-aware CNN-Mamba Hybrid Network for Pixel-level Surface Defect Detection](https://www.sciencedirect.com/science/article/pii/S0263224125028696), W. Li, C. Wang, W. Feng, X. Wang, Z. Ren, J. Wang, C. Wang, Q. Lu, **Measurement 2025** (Elsevier)
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
