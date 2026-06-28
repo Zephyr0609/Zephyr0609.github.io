@@ -7,10 +7,8 @@
 
 # Site Settings
 title                    : "Zeyu Ren"
-description              : "Zeyu Ren, M.S. student at University of Melbourne, 
-                            working on generative models and depth estimation, with interests in world models and embodied AI.
-                            "
-repository               : " Zephyr0609/Zephyr0609.github.io"
+description              : "Working on generative models, world models, and dense prediction."
+repository               : "Zephyr0609/Zephyr0609.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zeyu Ren"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  avatar           : "images/profile.jpg"
+  bio              : "M.S. Student, University of Melbourne"
+  location         : "Melbourne, Australia"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "renzeyu2002@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=r8cC8twAAAAJ&hl=zh-CN"
+  email            : "zeyren@student.unimelb.edu.au"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -39,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "Zephyr0609"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "zeyu-ren-54340429a"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0009-0004-6319-1964"
   pinterest        :
