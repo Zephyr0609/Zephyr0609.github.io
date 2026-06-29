@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Zeyu Ren (任泽宇), an M.S. student at the University of Melbourne, working on generative models, world models, and dense prediction (e.g., depth and surface-normal estimation).
+Hi! I am Zeyu Ren (任泽宇), a Master of Engineering (Mechatronics) student at the University of Melbourne, working on generative models, world models, and dense prediction (e.g., depth and surface-normal estimation).
 
 In today's AI era, I believe writing code is no longer the hardest part of research; the harder and more valuable skill is the ability to spot the right problems, whether they surface from theory, from visualization, or from careful self-reflection. Once a problem is found, what matters is how to solve it — and how to make the solution simpler and explain it more clearly and coherently at a theoretical level. Equally important is presentation: how to convey an idea so that others can truly understand it. These are the abilities I most want to improve during my PhD. Above all I value simplicity, avoiding redundancy and over-design. I also read broadly beyond my own field, since ideas from other areas often spark new ways of thinking about my own problems.
 
@@ -42,7 +42,7 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 <span style="font-size:0.85em;">\*Equal contribution. The University of Melbourne · Peking University · Shanghai University of Engineering Science.</span>
 
-[**Website**](https://aigeeksgroup.github.io/AnyDepth/) [**Code**](https://github.com/AIGeeksGroup/AnyDepth)
+[**Website**](https://aigeeksgroup.github.io/AnyDepth/) [**Code**](https://github.com/AIGeeksGroup/AnyDepth) [![GitHub stars](https://img.shields.io/github/stars/AIGeeksGroup/AnyDepth?style=flat&logo=github&label=stars&color=1a4ba5)](https://github.com/AIGeeksGroup/AnyDepth)
 
 - A frozen DINOv3 encoder paired with the Simple Depth Transformer (SDT), a single-path decoder that cuts decoder parameters by 86.6–89.2% while improving the efficiency–accuracy trade-off over DPT heads.
 - Two depth-specific quality scores (distribution, gradient continuity) filter training data from 584K to 369K samples while preserving accuracy.
@@ -76,10 +76,10 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 # 📖 Educations
 - <img src="images/logos/buct.png" style="height:80px;width:auto;vertical-align:middle;margin-right:6px;"> *2019.09 - 2023.06*, B.Eng., Beijing University of Chemical Technology.
-- <img src="images/logos/unimelb.png" style="height:80px;width:auto;vertical-align:middle;margin-right:6px;"> *<!-- TODO 起止时间 --> - now*, M.S., University of Melbourne.
+- <img src="images/logos/unimelb.png" style="height:80px;width:auto;vertical-align:middle;margin-right:6px;"> *2024.02 - now*, Master of Engineering (Mechatronics), University of Melbourne.
 
 # 💻 Internships
-- <img src="images/logos/pku.png" style="height:80px;width:auto;vertical-align:middle;margin-right:6px;"> *2025.03 - now*, **Peking University**, Research Assistant.
+- <img src="images/logos/pku.png" style="height:80px;width:auto;vertical-align:middle;margin-right:6px;"> *2025.03 - now*, **Peking University**, Research Assistant. Advisor: Hao Tang.
   - **Generative models.** Rethinking the latent space diffusion models operate in, and how latent quality shapes downstream prediction.
   - **World models.** Looking for a more reasonable way to build feed-forward world models.
   - **Dense prediction.** Efficient zero-shot monocular depth via a single-path decoder (AnyDepth), and globally structure-consistent underwater stereo depth via selective state-space refinement (StereoAdapter-2).
