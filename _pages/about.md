@@ -28,8 +28,8 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 - **Feed-forward world models for driving.** A fun setting we are pursuing: building a feed-forward world model for driving scenes directly from panoramic (360°) images.
 
 # 🔥 News
-- *2026.11*: &nbsp;🎉 Our paper **PINE** (point, instance and normal estimation in a one-step diffusion model) is out. Code coming soon.
-- *2026.11*: &nbsp;🎉 Our paper **PanDWM** (panoramic 4D driving world models) is out, and we release the [code](https://github.com/AIGeeksGroup/PanDWM) and [model](https://huggingface.co/AIGeeksGroup/PanDWM).
+- *2026.11*: &nbsp;🎉 Our paper **PINE** is out. Code coming soon.
+- *2026.11*: &nbsp;🎉 Our paper **PanDWM** is out, and we release the [code](https://github.com/AIGeeksGroup/PanDWM) and [model](https://huggingface.co/AIGeeksGroup/PanDWM).
 - *2026.02*: &nbsp;🎉 Our paper **StereoAdapter-2** is on [arXiv](https://arxiv.org/abs/2602.16915), and we [release the code](https://github.com/AIGeeksGroup/StereoAdapter-2).
 - *2026.01*: &nbsp;🎉 Our paper **AnyDepth** is on [arXiv](https://arxiv.org/abs/2601.02760), and we [release the code](https://github.com/AIGeeksGroup/AnyDepth).
 
