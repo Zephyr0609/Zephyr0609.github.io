@@ -118,6 +118,10 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
+      <li style="margin-top: 0.8em; font-size: 0.9em; color: #7a8288;">
+        <i class="fas fa-fw fa-eye" aria-hidden="true"></i> Views: <span id="vercount_value_site_pv">-</span><br>
+        <i class="fas fa-fw fa-user" aria-hidden="true"></i> Visitors: <span id="vercount_value_site_uv">-</span>
+      </li>
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}

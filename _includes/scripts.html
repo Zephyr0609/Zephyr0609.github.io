@@ -2,3 +2,30 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<!-- Page view counter (Vercount, a busuanzi-compatible service).
+     Open the site once with ?notrack=1 to stop counting this browser; ?notrack=0 undoes it.
+     A browser with the flag shows the last numbers it cached and sends no request. -->
+<script>
+(function () {
+  try {
+    var q = window.location.search;
+    if (/[?&]notrack=1\b/.test(q)) localStorage.setItem('owner_notrack', '1');
+    if (/[?&]notrack=0\b/.test(q)) localStorage.removeItem('owner_notrack');
+    if (localStorage.getItem('owner_notrack') === '1') {
+      var d = JSON.parse(localStorage.getItem('visitorCountData') || 'null');
+      if (d) {
+        var pv = document.getElementById('vercount_value_site_pv');
+        var uv = document.getElementById('vercount_value_site_uv');
+        if (pv && d.site_pv != null) pv.textContent = d.site_pv;
+        if (uv && d.site_uv != null) uv.textContent = d.site_uv;
+      }
+      return;
+    }
+  } catch (e) {}
+  var s = document.createElement('script');
+  s.src = 'https://events.vercount.one/js';
+  s.defer = true;
+  document.body.appendChild(s);
+})();
+</script>
