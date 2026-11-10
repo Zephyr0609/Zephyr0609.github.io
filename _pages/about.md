@@ -33,6 +33,22 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/pine.jpg' alt="PINE" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**
+
+**Zeyu Ren**, Jie Ni\*, Jiahao Wei, Hao Tang, Yongtai Liu, Zeyu Zhang†, Rui Qian\*
+
+<span style="font-size:0.85em;">\*Corresponding authors. †Project lead. The University of Melbourne · Southeast University · Fudan University · Peking University · Hanyang University.</span>
+
+**Code coming soon**
+
+- A one-step Diffusion Transformer that predicts the point map, surface normals and instance map of an image in one forward pass; each map is a token stream with its own input and output layers, sharing the transformer blocks under a stream mask.
+- A camera-aware ray encoding positions every token by its camera ray, and grounding attention adds the affinity of frozen DINOv3 features to the attention logits.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/anydepth.png' alt="AnyDepth" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -61,6 +77,22 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 [**Website**](https://aigeeksgroup.github.io/StereoAdapter-2/) [**Code**](https://github.com/AIGeeksGroup/StereoAdapter-2)
 
 - An underwater stereo framework centered on ConvSS2D for long-range, content-adaptive disparity refinement, with the synthetic UW-StereoDepth-80K dataset; improves RMSE by 17.0% (TartanAir-UW) and 7.2% (SQUID) over StereoAdapter, validated on a real BlueROV2 platform.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/pandwm.jpg' alt="PanDWM" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PanDWM: Panoramic 4D Driving World Models](https://aigeeksgroup.github.io/PanDWM/)
+
+Jiajun Sun\*, Zeyu Zhang\*†, **Zeyu Ren**, Guangfeng Jiang, Yang Zhao, Hao Tang‡
+
+<span style="font-size:0.85em;">\*Equal contribution. †Project lead. ‡Corresponding author. Shenzhen University · Peking University · The University of Melbourne · La Trobe University.</span>
+
+[**Website**](https://aigeeksgroup.github.io/PanDWM/) [**Code**](https://github.com/AIGeeksGroup/PanDWM) [**Model**](https://huggingface.co/AIGeeksGroup/PanDWM) [![GitHub stars](https://img.shields.io/github/stars/AIGeeksGroup/PanDWM?style=flat&logo=github&label=stars&color=1a4ba5)](https://github.com/AIGeeksGroup/PanDWM)
+
+- A driving world model that generates one 360° panoramic band instead of six pinhole videos, conditioned on 3D boxes and HD maps, so the model does not have to learn cross-view consistency.
+- A four-step causal student matches the FID of its 50-step teacher on nuScenes (10.1 vs. 9.93), lowers FVD-1 from 47.7 to 37.4, and runs at 1.96 s instead of 33.7 s per frame; a feed-forward decoder lifts each frame into 3D/4D Gaussians.
 </div>
 </div>
 
