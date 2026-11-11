@@ -24,8 +24,7 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 **I am currently looking for PhD opportunities (Fall 2027) in related areas — if you think we might be a good fit, please feel free to reach out.**
 
 # ⏳ What Am I Doing Right Now?
-- **Representation latents for diffusion-based geometry estimation models.** Exploring the use of high-dimensional representations in diffusion-based geometry estimation.
-- **Feed-forward world models for driving.** A fun setting we are pursuing: building a feed-forward world model for driving scenes directly from panoramic (360°) images.
+- **World models that drive rendering engines.**
 
 # 🔥 News
 - *2026.11*: &nbsp;🎉 Our paper **PINE** is out, and we release the [code](https://github.com/AIGeeksGroup/PINE) and [model](https://huggingface.co/zeyuren2002/PINE).
