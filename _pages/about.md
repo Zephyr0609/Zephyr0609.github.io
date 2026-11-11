@@ -28,7 +28,7 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 - **Feed-forward world models for driving.** A fun setting we are pursuing: building a feed-forward world model for driving scenes directly from panoramic (360°) images.
 
 # 🔥 News
-- *2026.11*: &nbsp;🎉 Our paper **PINE** is out. Code coming soon.
+- *2026.11*: &nbsp;🎉 Our paper **PINE** is out, and we release the [code](https://github.com/AIGeeksGroup/PINE) and [model](https://huggingface.co/zeyuren2002/PINE).
 - *2026.11*: &nbsp;🎉 Our paper **PanDWM** is out, and we release the [code](https://github.com/AIGeeksGroup/PanDWM) and [model](https://huggingface.co/AIGeeksGroup/PanDWM).
 - *2026.02*: &nbsp;🎉 Our paper **StereoAdapter-2** is on [arXiv](https://arxiv.org/abs/2602.16915), and we [release the code](https://github.com/AIGeeksGroup/StereoAdapter-2).
 - *2026.01*: &nbsp;🎉 Our paper **AnyDepth** is on [arXiv](https://arxiv.org/abs/2601.02760), and we [release the code](https://github.com/AIGeeksGroup/AnyDepth).
@@ -44,7 +44,7 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 <span style="font-size:0.85em;">\*Corresponding authors. †Project lead. The University of Melbourne · Southeast University · Fudan University · Peking University · Hanyang University.</span>
 
-**Code coming soon**
+[**Website**](https://aigeeksgroup.github.io/PINE/) [**Code**](https://github.com/AIGeeksGroup/PINE) [**Model**](https://huggingface.co/zeyuren2002/PINE) [![GitHub stars](https://img.shields.io/github/stars/AIGeeksGroup/PINE?style=flat&logo=github&label=stars&color=1a4ba5)](https://github.com/AIGeeksGroup/PINE)
 
 - A one-step Diffusion Transformer that predicts the point map, surface normals and instance map of an image in one forward pass; each map is a token stream with its own input and output layers, sharing the transformer blocks under a stream mask.
 - A camera-aware ray encoding positions every token by its camera ray, and grounding attention adds the affinity of frozen DINOv3 features to the attention logits.
