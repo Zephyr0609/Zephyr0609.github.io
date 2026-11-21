@@ -39,13 +39,13 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 **PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**
 
-**Zeyu Ren**, Jie Ni\*, Jiahao Wei, Hao Tang, Yongtai Liu, Zeyu Zhang†, Rui Qian\*
+**Zeyu Ren**, Jie Ni\*, Rui Qian\*, Jiahao Wei, Hao Tang, Yongtai Liu, Zeyu Zhang†
 
 <span style="font-size:0.85em;">\*Corresponding authors. †Project lead. The University of Melbourne · Southeast University · Fudan University · Peking University · Hanyang University.</span>
 
 [**Website**](https://aigeeksgroup.github.io/PINE/) [**Code**](https://github.com/AIGeeksGroup/PINE) [**Model**](https://huggingface.co/AIGeeksGroup/PINE) [![GitHub stars](https://img.shields.io/github/stars/AIGeeksGroup/PINE?style=flat&logo=github&label=stars&color=1a4ba5)](https://github.com/AIGeeksGroup/PINE)
 
-- A one-step Diffusion Transformer that predicts the point map, surface normals and instance map of an image in one forward pass; each map is a token stream with its own input and output layers, sharing the transformer blocks under a stream mask.
+- A one-step omni Diffusion Transformer that predicts the point map, surface normals and instance map of an image in one forward pass; each map is a token stream with its own input and output layers, sharing the transformer blocks under a stream mask.
 - A camera-aware ray encoding positions every token by its camera ray, and grounding attention adds the affinity of frozen DINOv3 features to the attention logits.
 </div>
 </div>
