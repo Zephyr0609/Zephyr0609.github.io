@@ -39,9 +39,9 @@ In today's AI era, I believe writing code is no longer the hardest part of resea
 
 **PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model**
 
-**Zeyu Ren**, Jie Ni\*, Rui Qian\*, Jiahao Wei, Hao Tang, Yongtai Liu, Zeyu Zhang†
+**Zeyu Ren**, Jie Ni<sup>✉︎</sup>, Rui Qian<sup>✉︎</sup>, Jiahao Wei, Hao Tang, Yongtai Liu, Zeyu Zhang†
 
-<span style="font-size:0.85em;">\*Corresponding authors. †Project lead. The University of Melbourne · Southeast University · Fudan University · Peking University · Hanyang University.</span>
+<span style="font-size:0.85em;">✉︎Corresponding authors. †Project lead. The University of Melbourne · Southeast University · Fudan University · Peking University · Hanyang University.</span>
 
 [**Website**](https://aigeeksgroup.github.io/PINE/) [**Code**](https://github.com/AIGeeksGroup/PINE) [**Model**](https://huggingface.co/AIGeeksGroup/PINE) [![GitHub stars](https://img.shields.io/github/stars/AIGeeksGroup/PINE?style=flat&logo=github&label=stars&color=1a4ba5)](https://github.com/AIGeeksGroup/PINE)
 
